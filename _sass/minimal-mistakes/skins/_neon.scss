@@ -1,7 +1,7 @@
 /* Colors */
-$background-color: #1e1813 !default;      // Darker background
+$background-color: #2a52be !default;      // Darker background
 $text-color: #f0e4d9 !default;           // Good-readable text color
-$primary-color: #d3a95a !default;        // Beige accent color
+$primary-color: #DDA0DD !default;        // Beige accent color
 $border-color: mix(#fff, $background-color, 20%) !default;
 $code-background-color: mix(#000, $background-color, 15%) !default;
 $code-background-color-dark: mix(#000, $background-color, 20%) !default;
@@ -11,7 +11,7 @@ $link-color: $primary-color !default;
 $link-color-hover: mix(#fff, $link-color, 25%) !default;
 $link-color-visited: mix(#000, $link-color, 25%) !default;
 $masthead-link-color: $text-color !default;
-$masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
+$masthead-link-color-hover: $primary-color !default;
 $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 
 /* Notices */

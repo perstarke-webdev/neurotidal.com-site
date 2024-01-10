@@ -21,13 +21,9 @@
 <div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
      style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ overlay_img_path }}');{% endif %}; height: 100vh; background-size: cover; display: flex; flex-direction: column; justify-content: center; align-items: center;">
   <div class="wrapper center">
-    <h1 id="page-title" class="page__title" itemprop="headline" style="font-family: 'Russo One', sans-serif; font-size: 280%">
-      {% if paginator and site.paginate_show_page_num %}
-      {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
-      {% else %}
-      {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
-      {% endif %}
-    </h1>
+    <br><br><br><br>
+    <img src="/images/neurodital/neurodital-logo-lang.png">
+    <br><br>
     <br>
     {% if page.tagline %}
     <p class="page__lead">{{ page.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</p>
