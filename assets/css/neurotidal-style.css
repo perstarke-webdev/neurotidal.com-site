@@ -9,10 +9,13 @@ background image
 */
 
 .bg {
-  background-image: url("/images/photos/neurotidal-band-one.jpeg");
+  background-image: url("/images/photos/neurotidal-band-two.webp");
   background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
 }
+
+@media screen and max-width
 
 
 
@@ -117,7 +120,7 @@ standard classes like center
 }
 
 .margin-bottom {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 
