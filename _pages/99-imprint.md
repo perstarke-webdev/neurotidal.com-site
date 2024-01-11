@@ -1,30 +1,26 @@
 ---
-layout: single_imprint
+layout: splash
 title: Impressum und Datenschutz
 permalink: /imprint
 author_profile: false
 ---
 
+<div class="text-box" markdown="1">
 
 <br><br><br>
 # Impressum & Datenschutz
 
 
 #### Anbieter und Verantwortliche Person
-Trainingslager Köln    
-CölnCampus Fitness GmbH     
-Zülpicher Str. 58  
-50674 Köln     
-St.-Nr.: 521458022451   
-Geschäftsführer: Matthias Drobeck   
-Sitz der Gesellschaft: Köln / Amtsgericht Köln   
-Handelsregister Nr.: HRB 53898    
+Per Starke  
+Willi-Lauf-Allee 43  
+50858 Köln
 
 
 #### Kontakt
-Telefon: 0221-4248875  
+Telefon: 0221-4000642
 <br>
-E-Mail: info_at_trainingslager-koeln.de  
+E-Mail: per_at_starke-team.de
 <br>
 
 
@@ -65,9 +61,6 @@ Diese Site enthält keine Kommentarfunktion, Nutzer können daher keine Beiträg
 #### Analyse, Tracking und Cookies
 Diese Seite verwendet kein Tracking, um Zugriffszahlen zu ermitteln.
 Es wird ein Cookie für die Dauer von einem Tag gesetzt, um die Zustimmung zur Verwendung der Website zu speichern, im Banner auf der Startseite, davon abgesehen setzen wir selber keine Cookies.
-Allerdings kann durch die Einbindung von Google Maps seitens Google auf die Verwendung von Cookies zurückgegriffen werden.  
-Mehr Informationen gibt es in der [Datenschutzerklärung von Google](https://policies.google.com/privacy?hl=de%22).
-
 
 #### Haftung für Links
 Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar.
@@ -101,3 +94,7 @@ Der Nutzer hat das Recht, auf Antrag unentgeltlich Auskunft zu erhalten über di
 #### Quelle
 Danke an Hr Rechtsanwalt Thomas Schwenke:<br>
 <a href="http://rechtsanwalt-schwenke.de/smmr-buch/datenschutz-muster-generator-fuer-webseiten-blogs-und-social-media/"><strong>Datenschutz-Muster von Rechtsanwalt Thomas Schwenke - I LAW it</strong></a>  
+
+
+
+</div>
