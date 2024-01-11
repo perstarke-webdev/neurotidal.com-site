@@ -9,13 +9,15 @@ background image
 */
 
 .bg {
-  background-image: url("/images/photos/neurotidal-band-two.webp");
+  background-image: url("/images/background/neurotidal-live-background.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  @media (max-width: 767px) {
+    background-image: url("/images/background/neurotidal-live-background-mobile.webp");
+  }
 }
 
-@media screen and max-width
 
 
 
@@ -120,7 +122,11 @@ standard classes like center
 }
 
 .margin-bottom {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
+}
+
+a.img:hover {
+    opacity: 0.7;
 }
 
 
@@ -134,3 +140,7 @@ boxes
     background-color: rgba(0, 0, 0, 0.5);
     padding: 15px;
 }
+
+
+
+
