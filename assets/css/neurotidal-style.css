@@ -17,7 +17,6 @@ background image
 
 
 
-
 /*
 masthead
 */
@@ -25,32 +24,6 @@ masthead
 .masthead {
     border-bottom: none !important;
 }
-
-
-
-
-
-
-/*
-standard classes like center
-*/
-
-.center {
-    text-align: center;
-}
-
-.margin-sides {
-    margin: 0 10vw;
-}
-
-.margin-top-xl {
-    margin-top: 250px;
-}
-
-.margin-bottom {
-    margin-bottom: 50px;
-}
-
 
 
 
@@ -72,11 +45,6 @@ cookie banner
     z-index: 999;
     font-size: 70%
 }
-
-
-
-
-
 
 
 /*
@@ -114,4 +82,52 @@ socials
     background: rgb(246, 210, 122);
   }
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+standard classes like center
+*/
+
+.center {
+    text-align: center;
+}
+
+.margin-sides {
+    margin: 0 10vw;
+}
+
+.margin-top-xl {
+    margin-top: 250px;
+}
+
+.margin-bottom {
+    margin-bottom: 50px;
+}
+
+
+
+/*
+boxes
+*/
+
+.text-box {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
 }

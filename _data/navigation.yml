@@ -1,17 +1,17 @@
 # main links
 main:
-  - title: "Willkommen"
+  - title: "Home"
     url: /
-  - title: "Galerie"
-    url: /#galerie
-  - title: "Team"
-    url: /#team
-  - title: "Infos"
-    url: /#infos
-  - title: "Aktuelles"
-    url: /#aktuelles
-  - title: "Kontakt"
-    url: /#kontakt
+  - title: "Live"
+    url: /#live
+  - title: "Gallery"
+    url: /#gallery
+  - title: "Merch"
+    url: /#merch
+  - title: "Tour dates"
+    url: /#tourdates
+  - title: "Newsletter"
+    url: "https://perstarke-webdev.de"
 
 
 
