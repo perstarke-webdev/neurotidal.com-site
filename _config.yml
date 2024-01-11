@@ -6,13 +6,13 @@ github: metadata
 
 # Site Settings
 locale          : "de"
-title           : "Trainingslager Köln"
+title           : "NEUROTIDAL - THE LURE"
 title_separator : "-"
 name            : ""
-description     : "Trainingslager - Oldschool Gym Cologne"
+description     : "Audiovisual art"
 url             : "" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl         : ""  # the subpath of your site, e.g. "/blog"
-repository      : "perstarke-webdev/trainingslager-koeln.de-site" # GitHub username/repo-name
+repository      : "perstarke-webdev/neurotidal-com-site" # GitHub username/repo-name
 teaser          :  # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs     : false # true, false (default)
 words_per_minute : 200
@@ -41,10 +41,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Trainingslager Köln"
-  avatar           :  /images/avatar.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "NeuroTidal"
+  avatar           :
   bio              :
-  location         : "Cologne"
+  location         : "Germany"
   email            :
   uri              :
   github           : 
