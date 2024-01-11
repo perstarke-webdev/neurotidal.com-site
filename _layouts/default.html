@@ -19,21 +19,20 @@
 {% include_cached skip-links.html %}
 {% include_cached masthead.html %}
 
-<div class="initial-content">
+<div class="bg">
+
+<div class="initial-content margin-sides center">
   {{ content }}
 </div>
 
-{% if site.search == true %}
-<div class="search-content">
-  {% include_cached search/search_form.html %}
-</div>
-{% endif %}
 
 <div id="footer" class="page__footer" style="margin-top: -20px;">
   <footer>
     {% include footer/custom.html %}
     {% include_cached footer.html %}
   </footer>
+</div>
+
 </div>
 
 {% include scripts.html %}

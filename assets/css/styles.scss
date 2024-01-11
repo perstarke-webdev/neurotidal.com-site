@@ -1,16 +1,6 @@
 ---
 ---
-@import 'website-style.css';
+@import 'neurotidal-style.css'; // specific NeuroTidal stylesheet
 
 @import 'all.css'; // Fontawesome
 
-
-
-/* russo-one-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Russo One';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/russo-one-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
