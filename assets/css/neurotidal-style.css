@@ -180,6 +180,34 @@ buttons
     background-color: #e63fc8;
 }
 
+a.btn {
+    font-size: 1em;
+    color: inherit;
+    text-decoration: none;
+}
+
+a.btn:hover {
+    text-decoration: none !important;
+}
+
+.btn-bio {
+    width: 35vw;
+}
+
+@media (max-width: 767px) {
+    .btn-bio {
+        width: 50vw;
+    }
+}
+
+.btn-spotify {
+    background-color: #1DB954;
+}
+
+.btn-spotify:hover {
+    background-color: #1a9e49;
+}
+
 
 
 /*

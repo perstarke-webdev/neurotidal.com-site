@@ -5,8 +5,6 @@ permalink: /imprint
 author_profile: false
 ---
 
-<br><br><br><br><br><br>
-
 <div class="text-box" markdown="1">
 
 <br><br><br>
