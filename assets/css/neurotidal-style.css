@@ -125,9 +125,40 @@ standard classes like center
     margin-bottom: 100px;
 }
 
-a.img:hover {
-    opacity: 0.7;
+
+
+
+
+
+
+/*
+merch
+*/
+
+.merch {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 }
+
+.merch img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 767px) {
+    .merch {
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+}
+
+.merch img:hover {
+    box-shadow: none !important;
+    transform: scale(1.05);
+}
+
+
 
 
 
