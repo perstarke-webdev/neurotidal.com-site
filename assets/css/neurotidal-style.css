@@ -201,7 +201,7 @@ tourdates
     margin: 5px 0;
 }
 
-.get-tickets-btn {
+.btn-neurotidal {
     margin-top: 10px;
     padding: 10px 20px;
     border: none;
@@ -212,7 +212,7 @@ tourdates
     transition: background-color 0.3s ease;
 }
 
-.get-tickets-btn:hover {
+.btn-neurotidal:hover {
     background-color: #e64d8e;
 }
 
