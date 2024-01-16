@@ -5,6 +5,8 @@ permalink: /imprint
 author_profile: false
 ---
 
+<br><br><br><br><br><br>
+
 <div class="text-box" markdown="1">
 
 <br><br><br>
@@ -12,16 +14,14 @@ author_profile: false
 
 
 #### Anbieter und Verantwortliche Person
-Per Starke  
-Willi-Lauf-Allee 43  
-50858 Köln
+Maximilian Siebert    
+Zollernstraße 1   
+52070 Aachen
 
 
 #### Kontakt
-Telefon: 0221-4000642
-<br>
-E-Mail: per_at_starke-team.de
-<br>
+E-Mail: alighthousetransmission -at- gmail.com   
+<small>Achtung, Missbrauch dieser Email für Werbung, Spam oder Ähnliches führt zu Anzeige!</small>
 
 
 
@@ -53,7 +53,7 @@ Wir respektieren Ihre Privatsphäre und ergreifen angemessene Maßnahmen, um Ihr
 Bei Fragen oder Anliegen zur Verwendung von GitHub Pages und des CDNs auf dieser Website können Sie sich gerne an uns wenden.
 
 #### Kontaktaufnahme
-Bei der Kontaktaufnahme mit dem Anbieter (zum Beispiel per Kontaktformular oder E-Mail) werden die Angaben des Nutzers zwecks Bearbeitung der Anfrage sowie für den Fall, dass Anschlussfragen entstehen, gespeichert.
+Bei der Kontaktaufnahme mit dem Anbieter (zum Beispiel per E-Mail) werden die Angaben des Nutzers zwecks Bearbeitung der Anfrage sowie für den Fall, dass Anschlussfragen entstehen, gespeichert.
 
 #### Kommentare und Beiträge
 Diese Site enthält keine Kommentarfunktion, Nutzer können daher keine Beiträge hinterlassen.
@@ -83,18 +83,12 @@ FontAwesome nutzt anonyme Zugriffsdaten, die in deren
 Auf dieser Webseite wird FontAwesome allerdings lokal gehostet und somit keine Daten an FontAwesome weitergegeben.
 <br/>
 
-#### Lizenz für Schriftarten
-Auf dieser Seite wird teilweise die Schriftart "Russo One" verwendet, eine sogenannte Google Font.
-Diese wird lokal gehostet, somit werden keinerlei Daten weitergegeben. 
-Russo One unterliegt der [Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
-
 #### Widerruf, Änderungen, Berichtigungen und Aktualisierungen
 Der Nutzer hat das Recht, auf Antrag unentgeltlich Auskunft zu erhalten über die personenbezogenen Daten, die über ihn gespeichert wurden. Zusätzlich hat der Nutzer das Recht auf Berichtigung unrichtiger Daten, Sperrung und Löschung seiner personenbezogenen Daten, soweit dem keine gesetzliche Aufbewahrungspflicht entgegensteht.<br />
-
-#### Quelle
-Danke an Hr Rechtsanwalt Thomas Schwenke:<br>
-<a href="http://rechtsanwalt-schwenke.de/smmr-buch/datenschutz-muster-generator-fuer-webseiten-blogs-und-social-media/"><strong>Datenschutz-Muster von Rechtsanwalt Thomas Schwenke - I LAW it</strong></a>  
 
 
 
 </div>
+
+
+<br><br><br>
