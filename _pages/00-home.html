@@ -139,55 +139,6 @@ Merch
 
 
 
-
-<style>
-    .sk-instagram-feed-container {
-      max-width: 100vw;
-      margin: 0 auto;
-      overflow: hidden;
-    }
-
-    .sk-instagram-feed {
-      width: 100%;
-    }
-  </style>
-
-<div class='sk-instagram-feed-container'>
-  <div class='sk-instagram-feed' data-embed-id='25349228'></div>
-</div>
-<script src='https://widgets.sociablekit.com/instagram-feed/widget.js' async defer></script>
-<script>
-    // Function to adjust the parent's height
-    function adjustParentHeight() {
-      var childElement = document.querySelector('.sk-instagram-feed');
-      if (childElement) {
-        var parentElement = document.querySelector('.sk-instagram-feed-container');
-        parentElement.style.height = (childElement.offsetHeight - 90) + 'px';
-      }
-    }
-
-    // Create a MutationObserver to watch for changes in the DOM
-    var observer = new MutationObserver(function(mutationsList) {
-      for (var mutation of mutationsList) {
-        if (mutation.type === 'childList' || mutation.type === 'attributes') {
-          // Content has changed, or attributes have changed
-          adjustParentHeight();
-        }
-      }
-    });
-
-    // Configure the observer to monitor changes to the DOM within a specific container
-    var containerElement = document.querySelector('.sk-instagram-feed-container');
-    var config = { childList: true, attributes: true, subtree: true };
-    observer.observe(containerElement, config);
-
-    // Initially adjust the height
-    adjustParentHeight();
-  </script>
-
-<br><br><br>
-
-
 <!--
 #############
 Tourdates
