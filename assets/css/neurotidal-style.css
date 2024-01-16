@@ -77,14 +77,14 @@ socials
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #DDA0DD;;
+  background: #ff4dfc;
   font-size: 24px;
   line-height: 50px;
   text-align: center;
   transition: background-color 0.3s ease;
 
   &:hover {
-    background: #2a52be;
+    background: #9940ff;
   }
 
 }
@@ -161,6 +161,26 @@ merch
 
 
 
+/*
+buttons
+*/
+
+.btn-neurotidal {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4dfc;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-neurotidal:hover {
+    background-color: #e63fc8;
+}
+
+
 
 /*
 boxes
@@ -199,21 +219,6 @@ tourdates
 .tour-date p {
     font-size: 1em;
     margin: 5px 0;
-}
-
-.btn-neurotidal {
-    margin-top: 10px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #ff66b2;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.btn-neurotidal:hover {
-    background-color: #e64d8e;
 }
 
 .hidden {
