@@ -186,9 +186,11 @@ buttons
 }
 
 a.btn {
-    font-size: 1em;
     color: inherit;
     text-decoration: none;
+    font-size: 1em;
+    font-weight: normal;
+    opacity: 0.9;
 }
 
 a.btn:hover {
@@ -197,11 +199,13 @@ a.btn:hover {
 
 .btn-bio {
     width: 35vw;
+    margin-bottom: 35px;
+
 }
 
 @media (max-width: 767px) {
     .btn-bio {
-        width: 50vw;
+        width: 60vw;
     }
 }
 
@@ -225,6 +229,19 @@ boxes
     padding: 15px;
 }
 
+.bio-box {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    width: 40vw;
+    margin: auto;
+}
+
+@media (max-width: 767px) {
+    .bio-box {
+        width: auto;
+    }
+}
 
 
 /*
