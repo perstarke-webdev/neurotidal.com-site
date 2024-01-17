@@ -34,7 +34,7 @@ actual content starts here
 <img src="/images/logos/neurotidal-logo.webp" alt="NeuroTidal Logo" class="margin-bottom">
 
 
-<h1 class="margin-bottom" style="font-size: 2em;"> audiovisual art</h1>
+<h1 class="margin-bottom audiovisual-text"> audiovisual art</h1>
 
 
 <div class="text-box margin-bottom">
@@ -72,6 +72,7 @@ Gallery
 
 <span id="gallery"></span>
 {% include gallery layout='' %}
+<br><br>
 
 
 
@@ -87,11 +88,14 @@ Merch
 
 <span id="merch"></span>
 
+<h1 class="merch-header heading"> Merch </h1>
+
 <figure class="merch">
   <a href="https://goldkind.bigcartel.com/" rel="noopener noreferrer nofollow" target="_blank"> <img src="/images/merch/beanie-avio.webp" alt="neurotidal bandmerch beanie avio"> </a>
-  <a href="https://goldkind.bigcartel.com/" rel="noopener noreferrer nofollow" target="_blank"> <img src="/images/merch/beanie-black.webp" alt="neurotidal bandmerch beanie black"> </a>
   <a href="https://goldkind.bigcartel.com/" rel="noopener noreferrer nofollow" target="_blank"> <img src="/images/merch/shirt-black.webp" alt="neurotidal bandmerch shirt black"> </a>
+  <a href="https://goldkind.bigcartel.com/" rel="noopener noreferrer nofollow" target="_blank"> <img src="/images/merch/beanie-black.webp" alt="neurotidal bandmerch beanie black"> </a>
 </figure>
+<br>
 
 
 
@@ -104,7 +108,7 @@ Tourdates
 
 <span id="tourdates"></span>
 
-
+<h1 class="heading"> Tour Dates </h1>
 
 
 
@@ -129,21 +133,21 @@ Tourdates
 
 <div class="tour-date">
   <p>Date & Time</p>
-  <h3>City, Country</h3>
+  <h3 class="font-weight-normal">City, Country</h3>
   <p>Event Location</p>
   <a class="btn btn-neurotidal" href="https://perstarke-webdev.de" rel="noopener noreferrer nofollow" target="_blank">Get Your Tickets</a>
 </div>
 
 <div class="tour-date">
   <p>Date & Time</p>
-  <h3>City, Country</h3>
+  <h3 class="font-weight-normal">City, Country</h3>
   <p>Event Location</p>
   <a class="btn btn-neurotidal" href="https://perstarke-webdev.de" rel="noopener noreferrer nofollow" target="_blank">Get Your Tickets</a>
 </div>
 
 <div class="tour-date">
   <p>Date & Time</p>
-  <h3>City, Country</h3>
+  <h3 class="font-weight-normal">City, Country</h3>
   <p>Event Location</p>
   <a class="btn btn-neurotidal" href="https://perstarke-webdev.de" rel="noopener noreferrer nofollow" target="_blank">Get Your Tickets</a>
 </div>
@@ -159,6 +163,7 @@ Tourdates
 
 <div class="margin-bottom"></div>
 </div>
+<br><br>
 
 
 
@@ -178,54 +183,14 @@ Instagram
 
 <span id="instagram"></span>
 
-<style>
-    .sk-instagram-feed-container {
-      max-width: 100vw;
-      margin: 0 auto;
-      overflow: hidden;
-    }
+<h1 class="heading"> Instagram </h1>
 
-    .sk-instagram-feed {
-      width: 100%;
-    }
-  </style>
 
 <div class='sk-instagram-feed-container'>
   <div class='sk-instagram-feed' data-embed-id='25349795'></div>
 </div>
 <script src='https://widgets.sociablekit.com/instagram-feed/widget.js' async defer></script>
-<script>
-    // Function to adjust the parent's height
-    function adjustParentHeight() {
-        var childElement = document.querySelector('.sk-instagram-feed');
-        if (childElement) {
-            var parentElement = document.querySelector('.sk-instagram-feed-container');
 
-            // Adjust height based on window width
-            var heightAdjustment = (window.innerWidth <= 767) ? -40 : -38;
-
-            parentElement.style.height = (childElement.offsetHeight + heightAdjustment) + 'px';
-        }
-    }
-
-    // Create a MutationObserver to watch for changes in the DOM
-    var observer = new MutationObserver(function(mutationsList) {
-        for (var mutation of mutationsList) {
-            if (mutation.type === 'childList' || mutation.type === 'attributes') {
-                // Content has changed, or attributes have changed
-                adjustParentHeight();
-            }
-        }
-    });
-
-    // Configure the observer to monitor changes to the DOM within a specific container
-    var containerElement = document.querySelector('.sk-instagram-feed-container');
-    var config = { childList: true, attributes: true, subtree: true };
-    observer.observe(containerElement, config);
-
-    // Initially adjust the height
-    adjustParentHeight();
-</script>
 
 
 

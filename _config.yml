@@ -9,7 +9,7 @@ locale          : "de"
 title           : "NeuroTidal"
 title_separator : "-"
 name            : ""
-description     : "Audiovisual art"
+description     : "NeuroTidal - Audiovisual Art"
 url             : "" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl         : ""  # the subpath of your site, e.g. "/blog"
 repository      : "perstarke-webdev/neurotidal-com-site" # GitHub username/repo-name
