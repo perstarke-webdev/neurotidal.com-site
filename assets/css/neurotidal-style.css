@@ -13,10 +13,14 @@ background image
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+
   @media (max-width: 767px) {
     background-image: url("/images/background/neurotidal-live-background-mobile.webp");
+    background-size: cover; /* Add this line to ensure cover on mobile as well */
+    background-position: center top; /* Adjust the position as needed */
   }
 }
+
 
 
 
