@@ -32,6 +32,7 @@ masthead
 
 .masthead {
     border-bottom: none !important;
+    position: sticky !important;
 }
 
 
@@ -151,6 +152,7 @@ standard classes like center & special classes
 }
 
 .heading {
+    font-family: 'Roboto';
     font-family: 'Roboto';
     font-weight: 700;
 }
