@@ -278,3 +278,102 @@ tourdates
 
 
 
+/*
+EPK
+*/
+
+.epk-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.epk-image {
+    max-height: 100%;
+    width: 35vw;
+    border-radius: 5px;
+}
+
+.epk-video {
+    width: 35vw;
+}
+
+.epk-text-container-left {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 70%
+
+}
+
+.epk-text-container-right {
+    flex: 1;
+    margin-right: 20px;
+    font-size: 70%
+
+}
+
+.epk-heading {
+    margin-bottom: 10px;
+}
+
+.epk-subtext {
+    margin: 0;
+}
+
+  .epk-ll-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .epk-ll-box {
+    width: 48%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 767px) {
+    .epk-ll-container {
+      flex-direction: column;
+    }
+
+    .epk-ll-box {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+
+@media (max-width: 767px) {
+    .epk-container {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+    }
+
+    .epk-image {
+        width: 100%;
+        max-height: none;
+        margin-bottom: 20px;
+    }
+
+    .epk-text-container-left {
+        margin-left: 0;
+        font-size: 85%
+    }
+
+    .epk-text-container-right {
+        margin-right: 0;
+        font-size: 85%
+    }
+
+
+    .epk-video {
+        width: 100%;
+    }
+
+}
+
