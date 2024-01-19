@@ -348,10 +348,6 @@ EPK
     border-radius: 5px;
 }
 
-.epk-video {
-    width: 35vw;
-}
-
 .epk-text-container-left {
     flex: 1;
     margin-left: 20px;
@@ -373,30 +369,6 @@ EPK
 .epk-subtext {
     margin: 0;
 }
-
-  .epk-ll-container {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .epk-ll-box {
-    width: 48%;
-    padding: 20px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-  }
-
-  @media (max-width: 767px) {
-    .epk-ll-container {
-      flex-direction: column;
-    }
-
-    .epk-ll-box {
-      width: 100%;
-      margin-bottom: 10px;
-    }
-  }
-
 
 @media (max-width: 767px) {
     .epk-container {
@@ -421,10 +393,6 @@ EPK
         font-size: 85%
     }
 
-
-    .epk-video {
-        width: 100%;
-    }
 
 }
 
