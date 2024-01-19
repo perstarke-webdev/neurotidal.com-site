@@ -7,6 +7,8 @@ author_profile: false
 
 <div class="text-box" markdown="1">
 
+According to German law, we must provide this legal notice / imprint in German.
+
 <br><br><br>
 # Impressum & Datenschutz
 

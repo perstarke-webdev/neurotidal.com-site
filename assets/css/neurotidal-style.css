@@ -235,13 +235,38 @@ a.btn:hover {
     }
 }
 
-.btn-spotify {
-    background-color: #1DB954;
+.btn-one {
+    background-color: #174d45;
 }
 
-.btn-spotify:hover {
-    background-color: #1a9e49;
+.btn-two {
+    background-color: #17374d;
 }
+
+.btn-three {
+    background-color: #1b1e4d;
+}
+
+.btn-four {
+    background-color: #2e134d;
+}
+
+.btn-one:hover {
+    background-color: #144239;
+}
+
+.btn-two:hover {
+    background-color: #142a3c;
+}
+
+.btn-three:hover {
+    background-color: #161849;
+}
+
+.btn-four:hover {
+    background-color: #271031;
+}
+
 
 
 
