@@ -1,0 +1,77 @@
+{% assign classname = "" %}
+<!-- SET THIS TO classname = "hidden" to remove the whole tour-date section, set back to classname = "" to show again -->
+
+
+
+
+
+
+<!-- DO NOT EDIT THIS LINE BELOW -->
+<div class="{{classname}}">
+
+
+
+
+
+
+
+
+
+    <!-- CREATE AND SORT TOUR DATE INSTANCES -->
+
+
+
+
+
+    <!-- START of one tour date instance -->
+    <div class="tour-date">
+        <p>Date & Time</p>
+        <h3 class="font-weight-normal">City, Country</h3>
+        <p>Event Location</p>
+        <a class="btn btn-neurotidal" href="https://perstarke-webdev.de" rel="noopener noreferrer nofollow" target="_blank">Get Your Tickets</a>
+    </div>
+    <!-- END of one tour date instance -->
+
+
+    <!-- START of one tour date instance -->
+    <div class="tour-date">
+        <p>Date & Time</p>
+        <h3 class="font-weight-normal">City, Country</h3>
+        <p>Event Location</p>
+        <a class="btn btn-neurotidal" href="https://perstarke-webdev.de" rel="noopener noreferrer nofollow" target="_blank">Get Your Tickets</a>
+    </div>
+    <!-- END of one tour date instance -->
+
+
+    <!-- START of one tour date instance -->
+    <div class="tour-date">
+        <p>Date & Time</p>
+        <h3 class="font-weight-normal">City, Country</h3>
+        <p>Event Location</p>
+        <a class="btn btn-neurotidal" href="https://perstarke-webdev.de" rel="noopener noreferrer nofollow" target="_blank">Get Your Tickets</a>
+    </div>
+    <!-- END of one tour date instance -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- DO NOT EDIT BELOW THIS -->
+</div>
+
+
+{% if classname == "hidden" %}
+<div class="text-box">
+    Currently, no tour dates available.
+</div>
+{% else %}
+{% endif %}
