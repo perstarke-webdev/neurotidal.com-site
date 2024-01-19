@@ -12,11 +12,13 @@ background image
   background-image: url("/images/background/neurotidal-live-background.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed !important;
 
   @media (max-width: 767px) {
     background-image: url("/images/background/neurotidal-live-background-mobile.webp");
-    background-size: contain;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+      background-attachment: fixed !important;
   }
 }
 
