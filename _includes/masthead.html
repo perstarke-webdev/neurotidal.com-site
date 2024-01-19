@@ -3,8 +3,14 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav" style="background-color: transparent">
         <a class="site-title" href="{{ '/' | absolute_url }}">
-          <img src="/images/logos/neurotidal-symbol.webp" width="85px"/></a>
+          <img src="/images/logos/neurotidal-symbol.webp" width="75px"/></a>
         <ul class="visible-links">
+          <li class="masthead__menu-item">
+            <a href="https://www.youtube.com/channel/UCsmX-svSqodc22exB_neZDg" title="YouTube" rel="noopener noreferrer nofollow" target="_blank" style="margin-top: 2px;"><i class="fab fa-youtube"></i></a>
+          </li>
+          <li class="masthead__menu-item">
+            <a href="https://www.instagram.com/neurotidal/" title="Instagram" rel="noopener noreferrer nofollow" target="_blank" style="margin-top: 2px; margin-left: -5px;"><i class="fab fa-instagram"></i></a>
+          </li>
           {% for link in site.data.navigation.main %}
           {% if link.url contains 'http' %}
           {% assign domain = '' %}

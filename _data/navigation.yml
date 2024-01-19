@@ -4,14 +4,10 @@ main:
     url: /
   - title: "Live"
     url: /#live
-  - title: "Gallery"
-    url: /#gallery
   - title: "Merch"
     url: /#merch
   - title: "Tour Dates"
     url: /#tourdates
-  - title: "Instagram"
-    url: /#instagram
 
 
 
