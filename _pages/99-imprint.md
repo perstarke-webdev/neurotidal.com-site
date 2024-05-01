@@ -86,7 +86,10 @@ Auf dieser Webseite wird FontAwesome allerdings lokal gehostet und somit keine D
 #### Widerruf, Änderungen, Berichtigungen und Aktualisierungen
 Der Nutzer hat das Recht, auf Antrag unentgeltlich Auskunft zu erhalten über die personenbezogenen Daten, die über ihn gespeichert wurden. Zusätzlich hat der Nutzer das Recht auf Berichtigung unrichtiger Daten, Sperrung und Löschung seiner personenbezogenen Daten, soweit dem keine gesetzliche Aufbewahrungspflicht entgegensteht.<br />
 
-
+#### Erstellt von Per Starke Web Development
+  
+[Website](https://perstarke-webdev.de/)   
+[Blog](https://blog.perstarke-webdev.de/)
 
 </div>
 
