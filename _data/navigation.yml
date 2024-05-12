@@ -4,6 +4,8 @@ main:
     url: /
   - title: "Live"
     url: /#live
+  - title: "NeuroLetter"
+    url: /#neuroletter
   - title: "Merch"
     url: /#merch
   - title: "Tour Dates"
