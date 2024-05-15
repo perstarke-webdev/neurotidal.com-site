@@ -136,7 +136,7 @@ standard classes like center & special classes
 
 .audiovisual-text {
     font-size: 2.5em;
-    font-weight: normal;
+    font-weight: normal !important;
 }
 
 @media (max-width: 767px) {
